@@ -22,11 +22,16 @@ Features:
 - Firmware 9
 ```
 
+### Install dependencies:
+```
+sudo apt install ros-foxy-diagnostic-updater libasio-dev
+```
+
 ### Note: This driver has to be installed locally:
 ```
 mkdir -p ublox_ws/src
 cd ublox_ws/src
-git clone https://github.com/gokulp01/ros2-ublox-zedf9p.git
+git clone https://github.com/daeunSong/ros2-ublox-zedf9p.git
 cd ..
 colcon build
 ``` 
